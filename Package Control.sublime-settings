@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"All Autocomplete",
 		"Babel",
 		"Babel Snippets",
@@ -18,6 +19,8 @@
 		"NodeRequirer",
 		"Oceanic Next Color Scheme",
 		"Package Control",
+		"PlainTasks",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"VintageLines",

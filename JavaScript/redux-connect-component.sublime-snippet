@@ -1,12 +1,17 @@
 <snippet>
   <content><![CDATA[
+// HINT: move these import statements to the top of the file
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+
 export default connect (
-  state => {},
-  dispatch => {}
+  state => {${2:state}},
+  dispatch => {${3:actions}}
 )(${1:component})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>recc</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.javascript</scope> -->
+  <description>React-Redux: Connect Component</description>
 </snippet>
