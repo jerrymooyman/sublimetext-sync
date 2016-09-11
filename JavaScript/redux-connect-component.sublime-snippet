@@ -5,8 +5,8 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 export default connect (
-  state => {${2:state}},
-  dispatch => {${3:actions}}
+  state => { ${2:state} },
+  dispatch => bindActionCreators({ ${3:actions} }, dispatch)
 )(${1:component})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
