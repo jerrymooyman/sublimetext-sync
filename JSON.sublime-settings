@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		"json",
+		".eslintrc",
+		".babelrc"
+	]
+}
