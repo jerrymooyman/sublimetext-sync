@@ -1,15 +1,24 @@
 {
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
 	"debug": true,
 	"delay": 0.25,
 	"detect_indentation": false,
 	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
 	"error_color": "D02000",
+	"fade_fold_buttons": true,
 	"font_face": "source code pro",
 	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"lint_mode": "background",
 	"linters":
 	{
@@ -31,7 +40,7 @@
 		"javascript (babel)": "javascript"
 	},
 	"tab_size": 2,
-	"theme": "Boxy Yesterday.sublime-theme",
+	"theme": "Boxy Ocean.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"vintage_lines.force_mode": true,
 	"vintage_start_in_command_mode": true,

@@ -1,0 +1,47 @@
+<snippet>
+	<content><![CDATA[
+'use strict'
+
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+
+//TIP: import your actions
+//import {
+//  myAction
+//} from '../../actions/actions'
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
+
+  render() {
+    return (
+      <div>
+      </div>
+    )
+  }
+
+}
+
+const mapStateToProps = (state) => {
+  return {
+  	//TIP: place your state mapping here
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+  	//TIP: place your action mapping here
+    //onSomeEvent: (actionArgs) => {
+    //  dispatch(myAction(actionArgs))
+    //}
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}})
+]]></content>
+    <tabTrigger>rrc</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: redux react class component</description>
+</snippet>
